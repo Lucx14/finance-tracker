@@ -7,6 +7,9 @@ gem 'devise', '~> 4.7', '>= 4.7.1'
 gem 'twitter-bootstrap-rails', '~> 4.0'
 gem 'devise-bootstrap-views', '~> 1.1'
 gem 'jquery-rails', '~> 4.3', '>= 4.3.5'
+gem 'iex-ruby-client'
+gem "font-awesome-rails"
+gem 'dotenv-rails', '~> 2.7', '>= 2.7.5'
 
 gem 'puma', '~> 3.11'
 gem 'sass-rails', '~> 5.0'
