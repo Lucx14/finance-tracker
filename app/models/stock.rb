@@ -1,7 +1,5 @@
 class Stock < ApplicationRecord
 
-
-
   def self.new_from_lookup(ticker_symbol)
     begin
       client = IEX::Api::Client.new(publishable_token: ENV["IEX_API_TOKEN"])
@@ -13,9 +11,4 @@ class Stock < ApplicationRecord
       return nil
     end
   end
-
-
-
-
-
 end
