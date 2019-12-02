@@ -10,13 +10,15 @@ class User < ApplicationRecord
   has_many :friends, through: :friendships
 
   def full_name
-    return "#{first_name} #{last_name}".strip if (first_name || last_name)
-    "Anonymous"
+    return "#{first_name} #{last_name}".strip if first_name || last_name
+
+    'Anonymous'
   end
 
   def stock_already_added?(ticker_symbol)
     stock = Stock.find_by_ticker(ticker_symbol)
     return false unless stock
+
     user_stocks.where(stock_id: stock.id).exists?
   end
 
@@ -37,9 +39,9 @@ class User < ApplicationRecord
     param.downcase!
     to_send_back = (first_name_matches(param) + last_name_matches(param) + email_matches(param)).uniq
     return nil unless to_send_back
+
     to_send_back
   end
-
 
   def self.first_name_matches(param)
     matches('first_name', param)
@@ -47,7 +49,6 @@ class User < ApplicationRecord
 
   def self.last_name_matches(param)
     matches('last_name', param)
-
   end
 
   def self.email_matches(param)
@@ -61,5 +62,4 @@ class User < ApplicationRecord
   def not_friends_with?(friend_id)
     friendships.where(friend_id: friend_id).count < 1
   end
-
 end

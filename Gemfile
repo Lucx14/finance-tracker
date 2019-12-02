@@ -34,6 +34,8 @@ group :development do
   gem 'listen', '>= 3.0.5', '< 3.2'
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+  gem 'rubocop', '~> 0.77.0'
+  gem 'rubocop-rspec', '~> 1.37'
   gem 'pry', '~> 0.12.2'
 end
 
@@ -44,7 +46,7 @@ group :test do
   gem 'shoulda-matchers', '~> 4.1', '>= 4.1.2'
   gem 'webdrivers', '~> 4.1', '>= 4.1.3'
   gem 'capybara', '~> 3.29'
-
+  gem 'simplecov', '~> 0.17.1', require: false
 end
 
 group :production do
