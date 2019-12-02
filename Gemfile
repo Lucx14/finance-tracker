@@ -23,6 +23,9 @@ gem 'bootsnap', '>= 1.1.0', require: false
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'capybara', '~> 3.29'
+  gem 'factory_bot_rails', '~> 5.1', '>= 5.1.1'
+  gem 'rspec-rails', '~> 3.9'
   gem 'sqlite3'
 end
 
@@ -35,9 +38,13 @@ group :development do
 end
 
 group :test do
-  gem 'capybara', '>= 2.15'
+  gem 'database_cleaner', '~> 1.7'
+  gem 'faker', '~> 2.8'
   gem 'selenium-webdriver'
-  gem 'chromedriver-helper'
+  gem 'shoulda-matchers', '~> 4.1', '>= 4.1.2'
+  gem 'webdrivers', '~> 4.1', '>= 4.1.3'
+  gem 'capybara', '~> 3.29'
+
 end
 
 group :production do
