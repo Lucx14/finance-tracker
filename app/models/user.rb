@@ -30,10 +30,6 @@ class User < ApplicationRecord
     under_stock_limit? && !stock_already_added?(ticker_symbol)
   end
 
-  def except_current_user(users)
-    users.reject { |user| user.id == self.id }
-  end
-
   def self.search(param)
     param.strip!
     param.downcase!
