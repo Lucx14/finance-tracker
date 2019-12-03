@@ -15,20 +15,14 @@
         null,
         1,
         0,
+        null,
         0,
         null,
         null,
         1,
         0,
         0,
-        0,
         null,
-        null,
-        1,
-        0,
-        null,
-        null,
-        1,
         0,
         null,
         null,
@@ -38,20 +32,15 @@
         null,
         1,
         0,
-        0,
-        0,
-        0,
-        0,
-        null,
         null,
         null,
         1,
         0,
-        null,
-        null,
-        1,
+        0,
+        0,
         0,
         null,
+        0,
         null,
         null,
         1,
@@ -65,6 +54,13 @@
         1,
         0,
         null,
+        null,
+        1,
+        0,
+        null,
+        null,
+        1,
+        0,
         null,
         null
       ],
@@ -78,6 +74,34 @@
         null
       ],
       "/Users/luciennajev/Projects/tutorials/Rails/finance-tracker/app/helpers/user_stocks_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/luciennajev/Projects/tutorials/Rails/finance-tracker/app/channels/application_cable/channel.rb": [
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/luciennajev/Projects/tutorials/Rails/finance-tracker/app/channels/application_cable/connection.rb": [
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/luciennajev/Projects/tutorials/Rails/finance-tracker/app/jobs/application_job.rb": [
+        1,
+        null
+      ],
+      "/Users/luciennajev/Projects/tutorials/Rails/finance-tracker/app/mailers/application_mailer.rb": [
+        1,
+        1,
+        1,
+        null
+      ],
+      "/Users/luciennajev/Projects/tutorials/Rails/finance-tracker/app/models/friendship.rb": [
+        1,
+        1,
         1,
         null
       ],
@@ -97,33 +121,21 @@
         null,
         null,
         1,
-        null,
         0,
         0,
         0,
         null,
         null,
+        null,
         0,
         0,
         null,
+        null,
+        1,
+        null,
+        0,
         null,
         null
-      ],
-      "/Users/luciennajev/Projects/tutorials/Rails/finance-tracker/app/mailers/application_mailer.rb": [
-        0,
-        0,
-        0,
-        0
-      ],
-      "/Users/luciennajev/Projects/tutorials/Rails/finance-tracker/app/models/friendship.rb": [
-        0,
-        0,
-        0,
-        0
-      ],
-      "/Users/luciennajev/Projects/tutorials/Rails/finance-tracker/app/jobs/application_job.rb": [
-        0,
-        0
       ],
       "/Users/luciennajev/Projects/tutorials/Rails/finance-tracker/app/controllers/application_controller.rb": [
         0,
@@ -132,7 +144,6 @@
       ],
       "/Users/luciennajev/Projects/tutorials/Rails/finance-tracker/app/controllers/user_stocks_controller.rb": [
         0,
-        null,
         0,
         0,
         0,
@@ -155,9 +166,6 @@
       ],
       "/Users/luciennajev/Projects/tutorials/Rails/finance-tracker/app/controllers/friendships_controller.rb": [
         0,
-        null,
-        null,
-        null,
         0,
         0,
         0,
@@ -168,7 +176,6 @@
       ],
       "/Users/luciennajev/Projects/tutorials/Rails/finance-tracker/app/controllers/user/registrations_controller.rb": [
         0,
-        null,
         0,
         null,
         0,
@@ -181,7 +188,6 @@
       ],
       "/Users/luciennajev/Projects/tutorials/Rails/finance-tracker/app/controllers/stocks_controller.rb": [
         0,
-        null,
         0,
         0,
         0,
@@ -197,7 +203,6 @@
       ],
       "/Users/luciennajev/Projects/tutorials/Rails/finance-tracker/app/controllers/users_controller.rb": [
         0,
-        null,
         0,
         0,
         0,
@@ -207,7 +212,6 @@
         0,
         0,
         null,
-        0,
         0,
         0,
         0,
@@ -239,26 +243,10 @@
       ],
       "/Users/luciennajev/Projects/tutorials/Rails/finance-tracker/app/controllers/welcome_controller.rb": [
         0,
-        null,
-        0,
-        null,
-        0,
-        null,
-        0
-      ],
-      "/Users/luciennajev/Projects/tutorials/Rails/finance-tracker/app/channels/application_cable/connection.rb": [
-        0,
-        0,
-        0,
-        0
-      ],
-      "/Users/luciennajev/Projects/tutorials/Rails/finance-tracker/app/channels/application_cable/channel.rb": [
-        0,
-        0,
         0,
         0
       ]
     },
-    "timestamp": 1575322267
+    "timestamp": 1575410919
   }
 }
