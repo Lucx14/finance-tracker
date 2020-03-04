@@ -11,7 +11,7 @@ gem 'iex-ruby-client'
 gem "font-awesome-rails"
 gem 'dotenv-rails', '~> 2.7', '>= 2.7.5'
 
-gem 'puma', '~> 3.11'
+gem 'puma', '~> 3.12'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 
